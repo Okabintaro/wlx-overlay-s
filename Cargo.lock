@@ -5849,6 +5849,7 @@ dependencies = [
  "vulkano-shaders",
  "wgui",
  "winit",
+ "wlx-common",
 ]
 
 [[package]]
@@ -6842,11 +6843,13 @@ dependencies = [
 name = "wlx-common"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "chrono",
  "glam",
  "idmap",
  "idmap-derive",
  "serde",
+ "wayvr_ipc",
 ]
 
 [[package]]
